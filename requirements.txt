@@ -2,3 +2,6 @@ hvac
 requests
 numpy==1.25.0
 jupylet
+# moderngl-window was updated 3 weeks ago and broke compatibility with jupylet
+# so pin to older version
+moderngl-window==2.4.6
